@@ -22,7 +22,7 @@ function Register() {
     try {
 
       const res = await fetch(
-        "http://localhost:5000/api/auth/register",
+        "https://collaborative-study-room-lm66.onrender.com/api/auth/register",
         {
           method: "POST",
 

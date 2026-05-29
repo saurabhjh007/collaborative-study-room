@@ -19,7 +19,7 @@ function Login() {
     try {
 
       const res = await fetch(
-        "http://localhost:5000/api/auth/login",
+        "https://collaborative-study-room-lm66.onrender.com/api/auth/login",
         {
           method: "POST",
 
